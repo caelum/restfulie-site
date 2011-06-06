@@ -1,0 +1,12 @@
+application: restfulie-site
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /
+  static_files: static_files/restfulie.html
+  upload: static_files/restfulie.html
+
+- url: /
+  static_dir: static_files
